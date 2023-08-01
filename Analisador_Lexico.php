@@ -182,22 +182,22 @@ for($j = 0; $j < $tam; $j++){
                 echo "<br>A cadeia é um operador (^)."."<br>Estado atual: ".$estado;
                 break;
             case 'q52':
-                echo "<br>A cadeia é um operador ( ( )."."<br>Estado atual: ".$estado;
+                echo "<br>A cadeia é um separador ( ( )."."<br>Estado atual: ".$estado;
                 break;
             case 'q53':
-                echo "<br>A cadeia é um operador ( ) )."."<br>Estado atual: ".$estado;
+                echo "<br>A cadeia é um separador ( ) )."."<br>Estado atual: ".$estado;
                 break;
             case 'q54':
-                echo "<br>A cadeia é um operador ( [ )."."<br>Estado atual: ".$estado;
+                echo "<br>A cadeia é um separador ( [ )."."<br>Estado atual: ".$estado;
                 break;
             case 'q55':
-                echo "<br>A cadeia é um operador ( ] )."."<br>Estado atual: ".$estado;
+                echo "<br>A cadeia é um separador ( ] )."."<br>Estado atual: ".$estado;
                 break;     
             case 'q56':
-                echo "<br>A cadeia é um operador ( { )."."<br>Estado atual: ".$estado;
+                echo "<br>A cadeia é um separador ( { )."."<br>Estado atual: ".$estado;
                 break;
             case 'q57':
-                echo "<br>A cadeia é um operador ( } )."."<br>Estado atual: ".$estado;
+                echo "<br>A cadeia é um separador ( } )."."<br>Estado atual: ".$estado;
                 break;  
             default:
                 echo "<br>O estado não é final.";
